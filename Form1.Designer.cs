@@ -43,7 +43,7 @@
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 2;
             this.label1.Text = "Names";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
@@ -53,21 +53,21 @@
             this.lstNames.Location = new System.Drawing.Point(12, 27);
             this.lstNames.Name = "lstNames";
             this.lstNames.Size = new System.Drawing.Size(120, 82);
-            this.lstNames.TabIndex = 1;
+            this.lstNames.TabIndex = 5;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(138, 26);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 2;
+            this.txtName.TabIndex = 0;
             // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(138, 55);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 23);
-            this.btnAdd.TabIndex = 3;
+            this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Add Name";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
@@ -77,7 +77,7 @@
             this.button1.Location = new System.Drawing.Point(146, 89);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 3;
             this.button1.Text = "true";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
@@ -89,7 +89,7 @@
             this.button2.Location = new System.Drawing.Point(146, 118);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
+            this.button2.TabIndex = 4;
             this.button2.Text = "false";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click_1);
